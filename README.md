@@ -106,7 +106,7 @@ One of Firestore's standout features is real-time synchronization, where changes
 
 Firestore is highly scalable, capable of handling small projects to enterprise-level applications. It provides powerful querying capabilities, automatic indexing, and built-in security through Firebase Authentication and customizable rules. Firestore integrates seamlessly with Firebase and Google Cloud services, making it suitable for web, mobile, and IoT applications requiring speed, reliability, and flexibility.
 
-## FIREBASE
+## Firebase
 
 Firebase is a comprehensive platform by Google designed to simplify the development and management of web, mobile, and serverless applications. It provides tools for real-time data synchronization, authentication, cloud storage, hosting, and serverless backend solutions with Cloud Functions. Developers can use its NoSQL databases, Realtime Database, and Cloud Firestore to store and sync data efficiently.
 
@@ -114,7 +114,7 @@ Firebase also offers analytics, crash reporting, performance monitoring, and Fir
 
 
 
-## DOCKER
+## Docker
 
 Docker is an open platform that simplifies the development, delivery, and execution of applications by providing a consistent environment for developers. It streamlines the process of shipping, testing, and deploying code by isolating applications from the underlying infrastructure. This isolation not only accelerates software delivery but also reduces the time it takes to move from development to production deployment. Docker achieves this by packaging applications and their dependencies into containers, which run in isolated environments. These containers can operate independently, allowing multiple containers to run concurrently on the same host without conflicts.
 
@@ -128,6 +128,4 @@ Kubernetes is an open-source, extensible platform that manages containerized wor
 
 Kubernetes coordinates containerized applications across clusters of machines, managing their lifecycle from deployment to scaling and monitoring. It ensures scalability, high availability, and predictable behavior, making it an ideal choice for both simple and complex applications. Kubernetes abstracts the underlying infrastructure, allowing users to run scalable workloads efficiently and securely.
 
-Though Kubernetes' architecture may seem complex at first, its flexibility and powerful features provide unmatched control for managing distributed applications. It is widely recognized for its self-healing capabilities, rolling updates, and automated load balancing, all of which contribute to high reliability and performance.
-
-To deploy an application on Google Kubernetes Engine (GKE), you must first create a Kubernetes cluster in the Google Cloud Platform (GCP) console. Additionally, service accounts need to be configured for accessing other services, such as Cloud SQL, that the application may rely on. A comprehensive guide detailing the setup and connection process can be found [here](https://cloud.google.com/sql/docs/mysql/connect-kubernetes-engine).
+Though Kubernetes' architecture may seem complex at first, its flexibility and powerful features provide unmatched control for managing distributed applications. It is widely recognized for its self-healing capabilities, rolling updates, and automated load balancing, all of which contribute to high reliability and performance. To deploy an application on Google Kubernetes Engine (GKE), you must first create a Kubernetes cluster in the Google Cloud Platform (GCP) console.
